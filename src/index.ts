@@ -1,3 +1,3 @@
-export function main() {
-  return 'Hello, tsdown!'
-}
+const main = () => 'Hello, tsdown!';
+
+export default main;
