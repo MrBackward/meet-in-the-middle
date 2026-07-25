@@ -1,0 +1,21 @@
+{
+  "name": "meet-in-the-middle",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Find the middle point between geographical locations, small and fast",
+  "exports": {
+    ".": "./dist/index.mjs",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsdown --minify",
+    "dev": "tsdown --watch"
+  },
+  "devDependencies": {
+    "tsdown": "^0.22.5",
+    "typescript": "^7.0.2"
+  }
+}
